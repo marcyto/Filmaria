@@ -1,0 +1,39 @@
+.filmessalvos article{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+}
+.filmessalvos h3{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.filmessalvos a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(234, 230, 230);
+    margin-left: 20px;
+    margin-right: 5px;
+    border-radius: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+    padding: 5px;
+}
+.filmessalvos a:hover{
+    color: white;
+    background-color: brown;
+}
+.filmessalvos button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(234, 230, 230);
+    cursor: pointer;
+    color: black;
+    transition: all 0.5s;
+}
+.filmessalvos button:hover{
+    color: white;
+    background-color: brown;
+}
